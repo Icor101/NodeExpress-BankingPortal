@@ -35,7 +35,7 @@ app.get('/credit',(req,res)=>{
     res.render('account',{account: accounts.credit});
 });
 
-app.get('/tranfer',(re1,res)=>{
+app.get('/tranfer',(req,res)=>{
     res.render('transfer');
 });
 
